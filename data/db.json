@@ -1,0 +1,81 @@
+{
+  "genres": [
+    {
+      "id": 1,
+      "name": "Pain relief ",
+      "description": "Pain relief used in daily life"
+    },
+    {
+      "id": 2,
+      "name": "Cold and allergy medications",
+      "description": "Printed and digital reading materials"
+    },
+    {
+      "id": 3,
+      "name": "Vitamins and supplements",
+      "description": "Apparel and garments for all genders and ages"
+    },
+    {
+      "id": 4,
+      "name": "Digestive health",
+      "description": "Digestive health and office furniture"
+    },
+    {
+      "id": 5,
+      "name": "Skincare",
+      "description": "Skincare for children"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "code": "prod-0001",
+      "name": "Fish oil",
+      "description": "product desc",
+      "genreId": 1,
+      "price": 10,
+      "quantity": 10,
+      "date": "01/01/2024"
+    },
+    {
+      "id": 2,
+      "code": "prod-0002",
+      "name": "Efferalgan",
+      "description": "product desc",
+      "genreId": 2,
+      "price": 15,
+      "quantity": 5,
+      "date": "02/01/2024"
+    },
+    {
+      "id": 3,
+      "code": "prod-0003",
+      "name": "Alcohol",
+      "description": "product desc",
+      "genreId": 3,
+      "price": 20,
+      "quantity": 8,
+      "date": "03/01/2024"
+    },
+    {
+      "id": 4,
+      "code": "prod-0004",
+      "name": "Fentanyl",
+      "description": "product desc",
+      "genreId": 4,
+      "price": 25,
+      "quantity": 12,
+      "date": "04/01/2024"
+    },
+    {
+      "id": 5,
+      "code": "prod-0005",
+      "name": "Cannabis ",
+      "description": "product desc",
+      "genreId": 5,
+      "price": 30,
+      "quantity": 7,
+      "date": "05/01/2024"
+    }
+  ]
+}

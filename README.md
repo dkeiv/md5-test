@@ -12,5 +12,5 @@ Use pnpm:
 ```shell
 pnpm install
 pnpm run server
-pnpm run dev
+pnpm dev
 ```
