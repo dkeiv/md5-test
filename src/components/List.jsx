@@ -2,6 +2,7 @@ const TableHeader = () => {
   return (
     <thead>
       <tr>
+        <th>No.</th>
         <th>Code</th>
         <th>Name</th>
         <th>Genre</th>
@@ -19,8 +20,9 @@ const List = ({ list }) => {
       <caption>Book list</caption>
       <TableHeader />
       <tbody>
-        {list.map(product => (
+        {list.map((product, index) => (
           <tr key={product.id}>
+            <td>{index + 1}</td>
             <td>{product.code}</td>
             <td>{product.name}</td>
             <td>{product.genre.name}</td>
