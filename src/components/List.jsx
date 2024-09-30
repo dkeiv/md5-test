@@ -2,7 +2,6 @@ const TableHeader = () => {
   return (
     <thead>
       <tr>
-        <th>No.</th>
         <th>Code</th>
         <th>Name</th>
         <th>Genre</th>
@@ -22,7 +21,6 @@ const List = ({ list }) => {
       <tbody>
         {list.map(product => (
           <tr key={product.id}>
-            <td>{product.id}</td>
             <td>{product.code}</td>
             <td>{product.name}</td>
             <td>{product.genre.name}</td>
